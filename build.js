@@ -5,8 +5,8 @@ require("esbuild")
     outdir: "dist",
     splitting: true,
     format: "esm",
-    sourcemap: true,
+    sourcemap: false,
     target: ["esnext"],
-    publicPath: "/",
+    publicPath: "/esbuild-learnings/",
   })
   .catch(() => process.exit(1));
