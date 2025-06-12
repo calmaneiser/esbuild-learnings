@@ -2,7 +2,7 @@ require("esbuild")
   .build({
     entryPoints: ["src/main.ts"],
     bundle: true,
-    outdir: "public",
+    outdir: "dist",
     splitting: true,
     format: "esm",
     sourcemap: true,
