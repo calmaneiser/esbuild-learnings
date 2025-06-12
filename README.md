@@ -1,4 +1,5 @@
 # ESBuild Learnings 🚀
+GitHub Page: **https://calmaneiser.github.io/esbuild-learnings/**
 
 A simple LitElement project bundled with esbuild demonstrating lazy loading of components and a loading spinner.
 
